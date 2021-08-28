@@ -4,4 +4,5 @@
 - Staging(`com.kotarofukuo.swiftui-list-app-Staging`) (Xcode Project)
 - Production(`com.kotarofukuo.swiftui-list-app-Production`) (Xcode Project)
 - Body (Swift Package)
-  - includes App Source code
+  - Body (Core module)
+  - DesignSystem (Design System module)
