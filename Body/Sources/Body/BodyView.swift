@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import DesignSystem
 
 public struct BodyView: View {
   public init() {}
 
   public var body: some View {
-    Text("This is BodyView")
+    VStack {
+      Text("This is BodyView")
+        .frame(height: 500)
+      CustomButton(
+        action: {
+          print(">>> excute action")
+        },
+        text: "This is Custom Button"
+      )
+    }
   }
 }
 
