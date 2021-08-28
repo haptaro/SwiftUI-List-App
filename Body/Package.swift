@@ -4,25 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "Body",
+    name: "",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "Body",
-            targets: ["Body"])
+            name: "View",
+            targets: ["View"])
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "Body",
-            dependencies: ["DesignSystem"]),
+            name: "View",
+            dependencies: ["DesignSystem", "Logic"]),
         .testTarget(
-            name: "BodyTests",
-            dependencies: ["Body"]),
-        .target(
-          name: "DesignSystem",
-          dependencies: []
-        )
+            name: "ViewTests",
+            dependencies: ["View"]),
+        .target(name: "DesignSystem"),
+        .target(name: "Logic")
     ]
 )

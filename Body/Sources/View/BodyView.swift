@@ -7,19 +7,23 @@
 
 import SwiftUI
 import DesignSystem
+import Logic
 
 public struct BodyView: View {
+  @State private var result: Int = 0
+
   public init() {}
 
   public var body: some View {
     VStack {
-      Text("This is BodyView")
+      Text("Result is \(result)")
         .frame(height: 500)
       CustomButton(
         action: {
-          print(">>> excute action")
+          let caluculator = Caluculator()
+          result = caluculator.add(x: 1, y: 2)
         },
-        text: "This is Custom Button"
+        text: "Calculate!"
       )
     }
   }

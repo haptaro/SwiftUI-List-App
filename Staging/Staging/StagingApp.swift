@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Body
+import View
 
 @main
 struct StagingApp: App {

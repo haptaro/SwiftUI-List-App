@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB4FB40A26DAE7DB0002BF85 /* View in Frameworks */ = {isa = PBXBuildFile; productRef = DB4FB40926DAE7DB0002BF85 /* View */; };
 		DBC1D35C26D613A200B4359A /* StagingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1D35B26D613A200B4359A /* StagingApp.swift */; };
-		DBC1D38726D614C500B4359A /* Body in Frameworks */ = {isa = PBXBuildFile; productRef = DBC1D38626D614C500B4359A /* Body */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC1D38726D614C500B4359A /* Body in Frameworks */,
+				DB4FB40A26DAE7DB0002BF85 /* View in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 			);
 			name = Staging;
 			packageProductDependencies = (
-				DBC1D38626D614C500B4359A /* Body */,
+				DB4FB40926DAE7DB0002BF85 /* View */,
 			);
 			productName = Staging;
 			productReference = DBC1D35826D613A200B4359A /* Staging.app */;
@@ -338,9 +338,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DBC1D38626D614C500B4359A /* Body */ = {
+		DB4FB40926DAE7DB0002BF85 /* View */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Body;
+			productName = View;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

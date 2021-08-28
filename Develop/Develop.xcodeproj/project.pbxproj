@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB4FB40826DAE7CD0002BF85 /* View in Frameworks */ = {isa = PBXBuildFile; productRef = DB4FB40726DAE7CD0002BF85 /* View */; };
 		DBC1D27126D32C2A00B4359A /* DevelopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1D27026D32C2A00B4359A /* DevelopApp.swift */; };
-		DBC1D29C26D32CEA00B4359A /* Body in Frameworks */ = {isa = PBXBuildFile; productRef = DBC1D29B26D32CEA00B4359A /* Body */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC1D29C26D32CEA00B4359A /* Body in Frameworks */,
+				DB4FB40826DAE7CD0002BF85 /* View in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 			);
 			name = Develop;
 			packageProductDependencies = (
-				DBC1D29B26D32CEA00B4359A /* Body */,
+				DB4FB40726DAE7CD0002BF85 /* View */,
 			);
 			productName = Develop;
 			productReference = DBC1D26D26D32C2A00B4359A /* Develop.app */;
@@ -338,9 +338,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DBC1D29B26D32CEA00B4359A /* Body */ = {
+		DB4FB40726DAE7CD0002BF85 /* View */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Body;
+			productName = View;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
